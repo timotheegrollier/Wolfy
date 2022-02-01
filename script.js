@@ -228,9 +228,9 @@ window.addEventListener('load', () => {
         if (gameOver) {
             context.textAlign = "center"
             context.fillStyle = "black"
-            context.fillText('GAME OVER, press ENTER or Swipe Up !', canvas.width / 2, 200)
+            context.fillText('GAME OVER, press ENTER or Swipe Down !', canvas.width / 2, 200)
             context.fillStyle = "white"
-            context.fillText('GAME OVER, press ENTER or Swipe Up !', canvas.width / 2, 202)
+            context.fillText('GAME OVER, press ENTER or Swipe Down !', canvas.width / 2, 202)
         }
     }
 
